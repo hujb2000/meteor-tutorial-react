@@ -55,3 +55,11 @@
 	The object you return from getMeteorData can be accessed on this.data inside the render method.
 
 
+4. Adding tasks with a form
+
+	You can see that the form elements has an onSubmit attribute that references a method on the component called handleSubmit. In React , this is how your listen to browser events. like the submit event on the form, The input element has a ref property which will let us easily access this element later.
+
+	In React you handle DOM  events by directly referencing a method on the component, Inside the event handler, you can reference elements from the component by giving them a ref  property and using React.findDOMNode. Read more about the differenct kinds of events React supports ,and how the event system works, in the
+
+	[React Docs](https://facebook.github.io/react/docs/events.html)
+
