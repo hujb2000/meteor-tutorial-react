@@ -70,3 +70,13 @@
 6. Deploying your app
 
 	meteor deploy hujb2012.meteor.com
+
+7. Running your app  on Android and iOS
+
+8. Storing temporary UI data in component state
+
+	* React components have a special field called state where you can store encapsulated component data. We need to define a getInitialState method on our component to initialize this field.
+
+	* We can update this.state from an event handler by calling this.setState, which will update the state property asynchronously and then cause the component to re-render.
+
+
