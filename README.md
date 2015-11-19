@@ -118,3 +118,12 @@
 	* Optimistic UI
 
 	With Meteor methods and optimistic UI, you get the best of both worlds -- the security of server code and no round-trip delay, Read more in our [blog post about optimistic UI](http://info.meteor.com/blog/optimistic-ui-with-meteor-latency-compensation)
+
+11. Filtering data with publish and subscribe
+
+	Just like with insecure in the last step, all new Meteor apps start with the autopublish package, which automatically synchronizes all of the database contents to the client
+
+	The function in Meteor taht do the are  Meteor.publish and Meteor.subscribe.
+
+	meteor remove autopublish
+
