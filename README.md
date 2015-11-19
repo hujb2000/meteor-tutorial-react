@@ -79,4 +79,25 @@
 
 	* We can update this.state from an event handler by calling this.setState, which will update the state property asynchronously and then cause the component to re-render.
 
+9. Adding user accoutns
+
+	Currently, this UI component uses Blaze, Meteor's default UI engine, In the futrue, there might also be a React-specific component for this.
+
+	meteor add accounts-ui accounts-password
+
+	* Wrapping a Blaze component in React
+
+	To use the Blaze UI component from the accounts-ui package, we need to wrap it in a React component. To do so, let's create a new component called AccountsUIWrapper in a new file
+
+	* Configure accounts-ui to only require username.
+
+	* Automatic accounts UI
+
+	You can add the accounts-facebook package to enable Facebook login in your app. The Faceboook button will automatically appear in the dropdown .
+
+	* Getting information about the logged-in user
+
+	You can use Meteor.user() to  check if a user is logged in and get infromation about them. For example. Meteor.user().username container the logged in user's username, You can also use
+
+	Meteor.userId() to just get the currnt user's _id.
 
