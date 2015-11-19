@@ -44,5 +44,14 @@
 	[Nikonlas C.Zakas "understanding ECMAScript6"](https://github.com/nzakas/understandinges6)
 
 
+3. Storing tasks in a collection
+
+	Creating a new collections is as easy as calling MyCollection = new Mongo.Collection("CollectionName");  in your JavaScript. On the server , this setup up a MongoDB collection called CollectionName; on the client, this craetes a cache connected to the server collection ;
+
+	* Using data from a collection  inside a React component
+
+	To use data from a Meteor collection inside a React component, include the ReactMeteorData mixin in a component. With this mixin in your component, you can define a method called getMeteorData which knows how to keep track of chanegs in data.
+
+	The object you return from getMeteorData can be accessed on this.data inside the render method.
 
 
