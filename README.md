@@ -101,3 +101,20 @@
 
 	Meteor.userId() to just get the currnt user's _id.
 
+10. Security with methods
+
+	* Removing insecure
+
+	Every newly created Meteor project has the insecure package added by default
+
+	meteor remove insecure
+
+	* Defining methods
+
+	Meteor.methods({methodName(parameter){}});
+
+	Meteor.call("methodName",params);
+
+	* Optimistic UI
+
+	With Meteor methods and optimistic UI, you get the best of both worlds -- the security of server code and no round-trip delay, Read more in our [blog post about optimistic UI](http://info.meteor.com/blog/optimistic-ui-with-meteor-latency-compensation)
