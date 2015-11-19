@@ -63,3 +63,6 @@
 
 	[React Docs](https://facebook.github.io/react/docs/events.html)
 
+5. Checking off and deleting tasks
+
+	React.render->ReactDOM.render, React.findDOMNode->ReactDOM.findDOMNode
