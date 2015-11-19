@@ -66,3 +66,7 @@
 5. Checking off and deleting tasks
 
 	React.render->ReactDOM.render, React.findDOMNode->ReactDOM.findDOMNode
+
+6. Deploying your app
+
+	meteor deploy hujb2012.meteor.com
